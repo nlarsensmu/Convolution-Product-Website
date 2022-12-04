@@ -147,9 +147,9 @@
           <div class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content">
-              <h3>Our Metrics</strong></h3>
+              <h3>Our Mediums</strong></h3>
               <p>
-                TODO: add charts showing our threading on native apps  
+                We provide 3 different contexts a node library without threading, an electron app, and a library with theading. 
               </p>
             </div>
 
@@ -162,7 +162,7 @@
                       Due to the lack of relibility on browsers to support threading, our app will demo a single threaded version that was compiled to webassembly.
                       The below chart plots how fast the library was when it ran in node vs a native C++ application. As expected native code runs consistantly faster.
                       However, the emscripten compiled library is only running 8% slower than native. An imressive result from WASM.
-                      <br>
+                      <br><br>
                       <div class = "row">
                         <div class="col-6">
                           <img src="assets/img/charts/nativeVWASM.png" class="img-fluid" alt="">
@@ -171,6 +171,11 @@
                           <img src="assets/img/charts/nativeVWASM_bar.png" class="img-fluid" alt="">
                         </div>
                       </div>
+                      <div class = "row">
+                        <div class = "col-12">
+                          <a href="../CodeLiveDemo/index.html" 
+                          class="btn-learn-more">Live Demo</a>
+                        </div>
                     </p>
                   </div>
                 </li>
@@ -180,6 +185,29 @@
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                     <p>
                       TODO: Talk about running in Electron
+                      <br><br>
+                      <div class = "row">
+                        <div class="col-6">
+                          <img src="assets/img/charts/threads_native.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-6">
+                          <img src="assets/img/charts/threads_node.png" class="img-fluid" alt="">
+                        </div>
+                      </div>
+                      <div class = "row">
+                        <div class = "col-4">
+                          <a href="https://github.com/nlarsensmu/Convolution-Product-Website/raw/b3b5c5f24f3b97ce7f97d50faec174a66602af3e/DeployedFiles/lab-5-electronjs-nlarsensmu.zip" 
+                          class="btn-learn-more">Download MAC</a>
+                        </div>
+                        <div class = "col-4">
+                          <a href="https://github.com/nlarsensmu/Convolution-Product-Website/raw/b3b5c5f24f3b97ce7f97d50faec174a66602af3e/DeployedFiles/lab-5-electronjs-nlarsensmu.zip" 
+                          class="btn-learn-more">Download Windows</a>
+                        </div>
+                        <div class = "col-4">
+                          <a href="https://github.com/nlarsensmu/Convolution-Product-Website/raw/b3b5c5f24f3b97ce7f97d50faec174a66602af3e/DeployedFiles/lab-5-electronjs-nlarsensmu.zip" 
+                          class="btn-learn-more">Download JS Library</a>
+                        </div>
+                      </div>
                     </p>
                   </div>
                 </li>
