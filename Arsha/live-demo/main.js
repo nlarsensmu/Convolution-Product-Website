@@ -49,7 +49,7 @@ var runImg = function(iJimpSrc) {
     var t2 = performance.now();
     console.log(`${selectedFilter.value},${(t2 - t1)/1000}`);
     var times = document.getElementById("times");
-    times.innerHTML += selectedFilter.value + " " + (t2-t1).toFixed(3) + "ms<br/>";
+    times.innerHTML += selectedFilter.value + " threads: " + thread_count + "took " + (t2-t1).toFixed(3) + "ms<br/>";
     // document.body.innerHTML += "Took WASM: " + (t2-t1).toFixed(3) + "ms<br/>";
 
     inputImgAddresss = cf.getInputImgPtr()/4;
