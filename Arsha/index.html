@@ -51,7 +51,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#our-mediums">Our Mediums</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#faq">How-To-Documentation</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -213,7 +213,7 @@
                 <li>
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Port into your node application with our Library! <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
+                    <p id="download_library">
                       You can download the compiled WASM files to include our library in your project! Below are the needed
                       files.
                       <div class = "row">
@@ -260,7 +260,7 @@
               <div class="icon"><i class="bx bx-calendar-check"></i></div>
               <h4><a href="./live-demo/index.html">Live Web Demo</a></h4>
               <p>
-                <img src="assets/img/live-demo-emboss.png" class="img-fluid" alt="">
+                <a href="./live-demo/index.html"><img src="assets/img/live-demo-emboss.png" class="img-fluid" alt="" ></a>
               </p>
             </div>
           </div>
@@ -269,7 +269,20 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="">Electron App Downloads</a></h4>
-              <p>TODO: I Need to add text here and I need to add a new image</p>
+              <p>
+                <img src="assets/img/electron-demo.png" class="img-fluid" alt="">
+              </p>
+              <div class = "row">
+                <div  class="col-6 d-flex justify-content-center justify-content-lg-start">
+                  <a href="https://github.com/nlarsensmu/Convolution-Product-Website/raw/b3b5c5f24f3b97ce7f97d50faec174a66602af3e/DeployedFiles/lab-5-electronjs-nlarsensmu.zip" 
+                  class="btn-learn-more">Download MAC</a>
+                </div>
+                <div class = "col-6 d-flex justify-content-center justify-content-lg-start">
+                  <a href="https://github.com/nlarsensmu/Convolution-Product-Website/raw/b3b5c5f24f3b97ce7f97d50faec174a66602af3e/DeployedFiles/lab-5-electronjs-nlarsensmu.zip" 
+                  class="btn-learn-more">Download Windows</a>
+                </div>
+              </div>
+
             </div>
           </div>
 
@@ -277,7 +290,10 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Web Assembly Library or your application</a></h4>
-              <p>TODO: I Need to add text here and I need to add a new image</p>
+              <p>
+                <a class="nav-link scrollto" href="#faq" ><i class="">How to setup your library</i></a>
+
+              </p>
             </div>
           </div>
 
@@ -299,11 +315,12 @@
             <li data-aos="fade-up" data-aos-delay="100">
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-1" class="collapsed">
                 How to set up Library <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p>
                   <h5 >1. Download the libraries</h5> 
                   Get the library files from preivous section (linked below). Place those files into your project<br>
-                   <a href="#library_download">download</a>.
+                    <a href="https://github.com/nlarsensmu/Convolution-Product-Website/raw/master/DeployedFiles/library.zip" 
+                    class="btn-learn-more">Download JS Library</a>
 
                    <h5>2. Bring those files into your node/html file</h5>
                    <h6>In your index.html file</h6>
@@ -323,7 +340,14 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">
                 API Documentation <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                  
+                <p>
+                  Below is a document describing the API's aviable.
+                  <br>
+                  <div class="d-flex justify-content-center justify-content-lg-start">
+                    <a href="https://github.com/nlarsensmu/Convolution-Product-Website/raw/master/DeployedFiles/Conv%20Runner%20-%20Design%20Doc.pdf">
+                      Download Documentation</a>
+                  </div>
+                </p>
               </div>
             </li>
 
@@ -332,7 +356,7 @@
                 Design Document<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Below is a document describing the API you can download to use in your application.
+                  Below is a design document describing the API you can download to use in your application.
                   <br>
                   <div class="d-flex justify-content-center justify-content-lg-start">
                     <a href="https://github.com/nlarsensmu/Convolution-Product-Website/raw/master/DeployedFiles/Conv%20Runner%20-%20Design%20Doc.pdf">
