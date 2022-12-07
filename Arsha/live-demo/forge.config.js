@@ -1,15 +1,9 @@
 module.exports = {
   packagerConfig: {
-    icon: "icon.icns"
+    icon: "icon"
   },
   rebuildConfig: {},
   makers: [
-    {
-      name: '@electron-forge/maker-squirrel',
-      config: {
-        icon: "icon.icns"
-      },
-    },
     {
       name: '@electron-forge/maker-zip',
       platforms: ['darwin'],
@@ -17,7 +11,6 @@ module.exports = {
     {
       name: '@electron-forge/maker-squirrel',
       config: {
-        exe: "conv_runner.exe",
       },
     },
     {

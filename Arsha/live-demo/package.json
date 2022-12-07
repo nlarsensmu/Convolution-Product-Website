@@ -1,5 +1,6 @@
 {
   "name": "lab-5-electronjs-nlarsensmu",
+  "author": "Alice and Bob",
   "version": "1.1.0",
   "description": "Convolution Runner",
   "main": "electron/main.js",
