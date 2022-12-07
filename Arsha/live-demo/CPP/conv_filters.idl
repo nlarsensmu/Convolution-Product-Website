@@ -1,0 +1,7 @@
+interface ConvolutionFilters {
+    void ConvolutionFilters();
+    void ConvolutionFilters(long rows, long cols, long channels, boolean debug);
+    long applyFilter(DOMString filterName);
+    long getInputImgPtr();
+    void setThreadCount(long num);
+};
